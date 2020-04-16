@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    /* background-color: #01FF70 ; */
+    box-sizing: border-box;
+    background-color: rebeccapurple;
+    color: #ffffff;
+    display: inline-block;
+    width: 33%;
+    padding: 20px;
+    border: 5px dotted goldenrod;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-right: 250px;
+    font-family: 'Frijole', cursive;
+}
+
+nav {
+    background-color: paleturquoise;
+    width: 1000px;
+    height: 100px;
+    margin-bottom: 50px;
+    position: fixed;
+}
+
+section {
+    padding-top: 150px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    font-size: 24px;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+}
+
+/* from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_intro */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+.group, .check {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+
+.group label, .check input {
+    width: 100px;
+}
+
+.group input, .check label {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    height: 100px;
+    font-size: 2rem;
+    font-weight: 900;
+    background: linear-gradient(30deg, aqua,  magenta);
+    border: none;
+    border-radius: 0px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px #999;
+}
+
+#contact {
+    margin: 200px 0;
+}
